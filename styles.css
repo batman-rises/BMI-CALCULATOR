@@ -1,0 +1,56 @@
+body {
+    background: radial-gradient(circle, #fc354c, #0abfbc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100% of the viewport height */
+    margin: 0;
+    /* Remove default margin */
+}
+
+.bmiCalculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+
+    background-color: azure;
+}
+
+h2 {
+    font-size: 2rem;
+    text-decoration: black underline dotted;
+}
+
+label {
+    font-weight: 800;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#result {
+    margin-top: 20px;
+    color: blue;
+    font-weight: 800;
+}
+
+}
